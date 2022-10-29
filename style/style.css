@@ -5,33 +5,35 @@ body {
 }
 
 .header {
-
+  background-color: #1f2937;
 }
 
 .header-logo {
-
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .header-links {
-
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .content-1 {
-
+  background-color: #1f2937;
 }
 
 .content-2 {
-
+  background-color: white
 }
 
 .content-3 {
-  
+  background-color: #e5e7eb;
 }
 
 .content-4 {
-  
+  background-color: white
 }
 
 .footer {
-  
+  background-color: #1f2937;
 }
