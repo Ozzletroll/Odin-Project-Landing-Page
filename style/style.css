@@ -36,6 +36,8 @@ body {
 .content-2 {
   background-color: white;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex: 1 1 auto;
 }
 
