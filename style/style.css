@@ -31,14 +31,22 @@ body {
   background-color: #1f2937;
   display: flex;
   flex: 1 1 auto;
+  justify-content: space-around;
 }
 
 .content-2 {
   background-color: white;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   flex: 1 1 auto;
+}
+
+.content-2-cards {
+  display: flex;
+  align-items: space-between;
+  gap: 15px;
 }
 
 .content-3 {
