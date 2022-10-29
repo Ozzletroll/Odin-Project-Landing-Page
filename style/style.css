@@ -34,8 +34,8 @@ body {
 }
 
 .content-2 {
-  background-color: white
-  display: flex;
+  background-color: white;
+  display;
   flex: 1 1 auto;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .content-4 {
-  background-color: white
+  background-color: white;
   display: flex;
   flex: 1 1 auto;
 }
