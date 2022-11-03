@@ -59,6 +59,14 @@ a:link {
   justify-content: center;
   gap: 100px;
   padding: 25px;
+
+}
+
+.content-1-left {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 15px;
 }
 
 .content-1-left-header {
@@ -66,6 +74,7 @@ a:link {
   font-weight: 800;
   color: #f9faf9;
 }
+
 
 .content-1-right {
   width: 600px;
