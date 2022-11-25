@@ -81,6 +81,7 @@ a:link {
 .content-1-left {
   display: flex;
   flex-direction: column;
+  color: white;
   width: 500px;
   gap: 15px;
 }
