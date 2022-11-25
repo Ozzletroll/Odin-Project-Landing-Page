@@ -176,7 +176,21 @@ a:link {
 .content-4 {
   background-color: white;
   display: flex;
-  flex: 1 1 auto;
+  flex: 1 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  width: 800px;
+  height: 100px;
+  border-radius: 15px;
+
 }
 
 .footer {
