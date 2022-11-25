@@ -206,6 +206,22 @@ a:link {
   font-size: 24px;
 }
 
+.button2 {
+  font-size: 18px;
+  transition-duration: 0.4s;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+}
+
+.button2:hover {
+  background-color: #b8d3ff;
+  color: #3882f6;
+}
+
 .footer {
   background-color: #1f2937;
   height: 100px;
