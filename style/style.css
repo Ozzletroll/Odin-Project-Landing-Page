@@ -192,7 +192,18 @@ a:link {
   height: 100px;
   border-radius: 5px;
   gap: 150px;
+}
 
+.call-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+}
+
+.call-text-title {
+  display: flex;
+  font-size: 24px;
 }
 
 .footer {
