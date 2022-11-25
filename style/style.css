@@ -112,6 +112,8 @@ a:link {
   justify-content: space-around;
   align-items: center;
   flex: 1 1 auto;
+  padding: 75px;
+  gap: 15px;
 }
 
 .content-2-cards {
