@@ -128,10 +128,14 @@ img {
 
 .content-2-cards {
   color: #1d1d1d;
+  background-color: red;
   font-size: 18px;
   font-weight: 100;
   display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
   align-items: space-between;
+  justify-content: center;
   gap: 25px;
   flex-wrap: wrap;
 }
@@ -140,15 +144,15 @@ img {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  flex: 1 1 auto;
   align-items: center;
 }
 
 .box {
   display: flex;
   flex-direction: column;
-  height: 120px;
-  width: 120px;
+  flex: 2 1 auto;
+  min-height: 90px;
+  min-width: 90px;
   border-radius: 25px;
   border: 2px solid #3882f6;
 
