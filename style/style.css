@@ -114,7 +114,6 @@ a:link {
   flex: 1 1 auto;
   padding: 75px;
   gap: 15px;
-  flex-wrap: wrap;
 }
 
 .content-2-cards {
@@ -124,6 +123,7 @@ a:link {
   display: flex;
   align-items: space-between;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .card {
