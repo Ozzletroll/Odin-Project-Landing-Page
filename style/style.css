@@ -80,12 +80,6 @@ a:link {
   flex-wrap: wrap;
 }
 
-/*
-.content-1 when screen width is below threshold {
-
-}
-*/
-
 .content-1-left {
   display: flex;
   flex-direction: column;
@@ -120,6 +114,7 @@ a:link {
   flex: 1 1 auto;
   padding: 75px;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .content-2-cards {
