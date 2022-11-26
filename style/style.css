@@ -133,9 +133,7 @@ img {
   font-size: 18px;
   font-weight: 100;
   display: flex;
-  flex: 0 1 auto;
-  flex-direction: row;
-  align-items: space-between;
+  align-items: center;
   justify-content: center;
   gap: 25px;
   flex-wrap: wrap;
@@ -154,9 +152,16 @@ img {
   flex: 2 1 auto;
   min-height: 90px;
   min-width: 90px;
+  max-height: 200px;
+  max-width: 200px;
   border-radius: 25px;
   border: 2px solid #3882f6;
+}
 
+.card:hover {
+  background-color: aquamarine;
+  flex: 1 0 auto;
+  transition: all 300ms ease-in-out;
 }
 
 .content-3 {
