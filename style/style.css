@@ -104,8 +104,8 @@ a:link {
   align-items: center;
   background-color: #e5e7eb;
   width: 100%;
-  min-width: 250px;
-  max-width: 600px;
+  min-width: 150px;
+  max-width: 400px;
 }
 
 img {
@@ -170,14 +170,16 @@ img {
   display: flex;
   flex-direction: column;
   width: 400px;
-  font-size: 36px;
+  flex: 1 1 auto;
+  font-size: 25px;
   font-style: italic;
   font-weight: lighter;
-
+  flex-wrap: wrap;
 }
 
 .quote1 {
   display: flex;
+  
 }
 
 .quote2 {
