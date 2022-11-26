@@ -115,6 +115,7 @@ img {
 
 .content-2 {
   background-color: white;
+  text-align: center;
   font-size: 36px;
   font-weight: 800;
   display: flex;
@@ -132,7 +133,7 @@ img {
   font-size: 18px;
   font-weight: 100;
   display: flex;
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   flex-direction: row;
   align-items: space-between;
   justify-content: center;
