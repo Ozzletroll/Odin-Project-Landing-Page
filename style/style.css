@@ -75,7 +75,9 @@ a:link {
   flex: 1 1 auto;
   justify-content: center;
   gap: 100px;
-  padding: 25px;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 125px;
   flex-wrap: wrap;
 }
