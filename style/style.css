@@ -76,10 +76,10 @@ a:link {
   flex: 1 2 auto;
   justify-content: center;
   gap: 100px;
-  padding-top: 2.5vw;
+  padding-top: max(2.5vw, 25px);
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-bottom: 7vw;
+  padding-bottom: max(7vw, 25px);
   flex-wrap: wrap;
 }
 
