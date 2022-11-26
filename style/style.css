@@ -163,23 +163,22 @@ img {
   flex: 1 1 auto;
   justify-content: center;
   align-items: center;
-  padding: 125px;
+  padding: 5vw;
 }
 
 .quote-area {
   display: flex;
   flex-direction: column;
-  width: 400px;
   flex: 1 1 auto;
   font-size: 25px;
   font-style: italic;
   font-weight: lighter;
   flex-wrap: wrap;
+  max-width: 600px;
 }
 
 .quote1 {
   display: flex;
-  
 }
 
 .quote2 {
