@@ -77,8 +77,14 @@ a:link {
   gap: 100px;
   padding: 25px;
   padding-bottom: 125px;
+  flex-wrap: wrap;
+}
+
+/*
+.content-1 when screen width is below threshold {
 
 }
+*/
 
 .content-1-left {
   display: flex;
@@ -96,9 +102,8 @@ a:link {
 
 
 .content-1-right {
-  width: 600px;
-  background-color: #6969696b;
   display: flex;
+  flex: 1 2 auto;
   justify-content: center;
   align-items: center;
 }
