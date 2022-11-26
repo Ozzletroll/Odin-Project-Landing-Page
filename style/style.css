@@ -72,7 +72,7 @@ a:link {
 .content-1 {
   background-color: #1f2937;
   display: flex;
-  flex: 1 1 auto;
+  flex: 1 2 auto;
   justify-content: center;
   gap: 100px;
   padding-top: 25px;
@@ -99,9 +99,18 @@ a:link {
 
 .content-1-right {
   display: flex;
-  flex: 1 2 auto;
+  flex: 1 1 auto;
   justify-content: center;
   align-items: center;
+  background-color: #e5e7eb;
+  width: 100%;
+  min-width: 250px;
+  max-width: 600px;
+}
+
+img {
+  width: 100%; 
+  height: auto;
 }
 
 .content-2 {
