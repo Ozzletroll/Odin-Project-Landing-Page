@@ -122,10 +122,10 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: space-around;
   flex: 1 1 auto;
-  padding: 5vw;
-  gap: 15px;
+  padding: 2.5vw;
+  gap: 2.5vw;
 }
 
 .content-2-cards {
